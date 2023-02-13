@@ -13,11 +13,12 @@ header {
   img {
     height: 60px;
     object-fit: cover;
+    cursor: pointer;
   }
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: #ebe8e8;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -30,4 +31,19 @@ header {
       color: red;
     }
   }
+}
+
+.dark-links {
+  a {
+    color: black;
+
+    &:hover {
+      color: rgb(78, 77, 77);
+    }
+  }
+}
+
+.header-dark {
+  background-color: white;
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
